@@ -1,83 +1,48 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Welcome to OpenShift</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css" />
-    <style type="text/css">
-        html, body {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Open Sans', sans-serif;
-            padding-top: 100px;
-        }
-
-        h1 {
-            font-size: 52px;
-            margin-bottom: 0;
-        }
-
-        h1, h2, p {
-            margin-top: 0;
-            font-weight: normal;
-        }
-
-        a {
-            color: #DB242F;
-        }
-
-        a:not(:hover) {
-            text-decoration: none;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: row;
-            margin: 0 auto;
-            width: 960px;
-        }
-
-        .section {
-            padding: 15px;
-        }
-
-        .section + .section {
-            margin-left: 15px;
-        }
-
-        .welcome {
-            background: #eee;
-            border-radius: 5px;
-            text-align: center;
-            flex: 0 0 300px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <title>Comning soon page: bootstrap free templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="bootstrappage.com">
+    <!-- Bootstrap style  -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/comingsoon.css" rel="stylesheet"/>
+    <!-- Bootstrap style responsive -->
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="container">
-        <div class="section welcome">
-            <div>
-                <img src="/static/openshift-logo.png" alt="OpenShift Logo" />
-            </div>
-            <h1>Welcome!</h1>
-            <p>You are running PHP <?php echo phpversion(); ?></p>
-        </div>
-        <div class="section">
-            <h2>What's next?</h2>
-            <p>Make changes to this website by editing the files inside <code>www/</code> of your repository.</p>
-            <p>Commit your changes after, then push to the remote repository.</p>
-            <pre><code>$ git commit -a -m "Some commit message"
-$ git push origin master</code></pre>
-            <h2>More</h2>
-            <ul>
-                <li>Visit <a href="http://www.openshift.com">http://www.openshift.com</a>.</li>
-                <li>Get help in the <a href="http://www.openshift.com/forums/openshift">OpenShift forums</a>.</li>
-                <li>More on the cartridge at <a href="https://github.com/pinodex/openshift-cartridge-nginx-php7">pinodex/openshift-cartridge-nginx-php7</a>.</li>
-            </ul>
-        </div>
+<div class="wrapper">
+    <div>
+        <h1 style="
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    margin-bottom:50px;">
+            Kuća Zdrave Hrane - Urukalo
+        </h1>
     </div>
+    <div class="comingsoonBlk">
+        <h1>Uskoro!</h1>
+        <p>Sajt će uskoro biti dostupan.<br>
+            Molimo Vas svratite ponovo.
+        </p>
+        <div class="socialMedia">
+            <a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="assets/img/facebook.png" alt="facebook"
+                                                                                                title="facebook"></a>
+            <a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="assets/img/twitter.png" alt="twitter"
+                                                                                               title="twitter"></a>
+            <a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="assets/img/youtube.png" alt="youtube"
+                                                                                               title="youtube"></a>
+        </div>
+        <form>
+            <span class="email"><input type="email" placeholder="Your email id"></span>
+            <span class="subscribe"><button class="btn btn-warning pull-right" type="submit">SAVE</button></span>
+        </form>
+        <br class="clr">
+    </div>
+</div>
+<div class="copyright"> zdravahrana.urukalo.com &copy; 2017.</div>
 </body>
 </html>
