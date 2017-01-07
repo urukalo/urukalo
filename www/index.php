@@ -20,7 +20,10 @@
     font-size: xx-large;
     color: white;
     margin-bottom:50px;">
-            <img style="max-width: 38%;     padding-bottom: 60px;" src="assets/img/logo_urukalodoo.png"/>
+            <img style="
+            max-width: 38%;
+            padding-left: 35px;
+            padding-bottom: 60px;" src="assets/img/logo_urukalodoo.png"/>
             <br>
 
         </h1>
