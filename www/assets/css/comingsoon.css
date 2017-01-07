@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-    background: url(../img/bgLight.png) no-repeat center 0 rgba(248, 148, 6, 0.3);
+    background: url(../img/bgLight.png) no-repeat center 0 rgb(232, 227, 217);
     padding: 60px 0 2px;
     border-bottom: 4px solid rgb(163, 37, 37)
 }
