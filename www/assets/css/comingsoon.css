@@ -3,8 +3,8 @@ body {
 }
 
 .wrapper {
-    background: url(../img/bgLight.png) no-repeat center 0 #f89406;
-    padding: 180px 0 2px;
+    background: url(../img/bgLight.png) no-repeat center 0 rgba(248, 148, 6, 0.3);
+    padding: 60px 0 2px;
     border-bottom: 4px solid rgb(163, 37, 37);
 }
 
@@ -69,11 +69,11 @@ body {
 .wrapper {border-bottom-color:rgb(109, 109, 109);}
  */
 .comingsoonBlk {
-    background: rgb(46, 130, 138);
+    background: rgb(96, 149, 71);
     color: #fff;
-    border-color: rgb(46, 130, 138);
+    border-color: rgb(96, 149, 71);
 }
 
 .wrapper {
-    border-bottom-color: rgb(46, 130, 138);
+    border-bottom-color: rgb(96, 149, 71);
 }
