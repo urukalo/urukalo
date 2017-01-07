@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Comning soon page: bootstrap free templates</title>
+    <title>Urukalo - Kuća Dobrih Cena</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="bootstrappage.com">
@@ -20,7 +20,11 @@
     font-size: xx-large;
     color: white;
     margin-bottom:50px;">
-            Kuća Zdrave Hrane - Urukalo
+            Urukalo
+            <br>
+            <p style="font-size: x-large;">
+                Kuća Dobrih Cena
+            </p>
         </h1>
     </div>
     <div class="comingsoonBlk">
